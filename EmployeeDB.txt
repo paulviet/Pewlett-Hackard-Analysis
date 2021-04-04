@@ -1,7 +1,7 @@
 Departments
 - 
-dept_no varchar pk
-dept_name varchar
+dept_no varchar pk 
+dept_name varchar UNIQUE
 
 Employees
 -
@@ -14,8 +14,8 @@ hire_date date
 
 Dept_Emp
 -
-dept_no varchar pk fk -< Departments.dept_no
 emp_no int pk fk -< Employees.emp_no 
+dept_no varchar pk fk -< Departments.dept_no
 from_date date
 to_date date
 
@@ -30,14 +30,14 @@ to_date date
 Salaries
 -
 emp_no int pk fk - Employees.emp_no 
-salary int
+salary int pk
 from_date date
 to_date date
 
 Titles
 -
 emp_no int pk fk -< Employees.emp_no 
-title varchar
-from_date date
+title varchar fk
+from_date date fk
 to_date date
 
