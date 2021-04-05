@@ -42,7 +42,7 @@ Points to Note from the data analysis
 
 - We have 72,458 employees retirement retirement_titles window fast approaching, however we only have 1,549 mentorship_eligibility eligible for the Mentorship Program. This is quite a bit less than the number of employees to replace the vacant positions.
 
-- This graph below shows the age and count of employees, there is no employees outside of this age range. The entire current age range of the employees is just 10 years younger than the age of the retiring class and the age of nearly the entire staff falls in just this 5 year gap.
+- This graph below shows the age and count of employees, there is no employees younger than the max of this age range, so there has not been any addition younger aged workers.
 
 ![employee_birthdates](images/employee_birthdates.png)
 
@@ -77,5 +77,10 @@ in [internal_candidates.csv](DATA/internal_candidates.csv) generated from the SQ
 
 ![employee_birthdates](images/employee_birthdates.png)
 
-The most ideal solution is for P-H to seek outside hires with the idea of looking for long term candidates and flattening the Age x Employee headcount line. To flatten the line there must be a consistent hiring cycle to allow the staffing and to seek younger candidates. Also to note is to review prior Retirements 
+The most ideal solution is for P-H to seek outside hires with the idea of looking for long term candidates to follow this flattened in hiring. and flattening the Age x Employee headcount line. To flatten the line there must be a consistent hiring cycle to allow the staffing and to seek younger candidates. Also to note is to review prior Retirements 
 
+Looking at it the entire history of the company, the oldest employee was born in 1952-02-01 and the youngest employee is born in 1965-02-01
+
+P-H should have been hiring a mean of 50 employees a day to offset 50 employees a day that have started coming of age towards retirement. The below charge shows that hiring practices have gone down an even line since the inception of the company to around 2001-01-28 when the last employee was hired.
+
+![hires_by_date](images/hires_by_date.png)
