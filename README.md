@@ -11,7 +11,7 @@ The Purpose of this Analysis is to Identify the number of soon to be retiring em
 
 - Data Source:   [departments.csv](DATA/departments.csv), [dept_emp.csv](DATA/dept_emp.csv), [dept_manager.csv](DATA/dept_manager.csv), [employees.csv](DATA/employees.csv), [salaries.csv](DATA/salaries.csv), [titles.csv](DATA/titles.csv)
 - Query and Database creation files: [schema.sql](schema.sql), [EmployeeDB.txt](EmployeeDB.txt), [bar_charts.ipynb](DATA/bar_charts.ipynb), [Employee_Database_challenge.sql](QUERIES/Employee_Database_challenge.sql)
-- Results: [mentorship_eligibility.csv](DATA/mentorship_eligibility.csv), [retirement_titles.csv](DATA/retirement_titles.csv), [retiring_titles.csv](DATA/retiring_titles.csv)[unique_titles.csv](DATA/unique_titles.csv)
+- Results: [mentorship_eligibility.csv](DATA/mentorship_eligibility.csv), [retirement_titles.csv](DATA/retirement_titles.csv), [retiring_titles.csv](DATA/retiring_titles.csv), [unique_titles.csv](DATA/unique_titles.csv)
 - Summary Files: [prior_retirement_titles.csv](DATA/prior_retirement_titles.csv), [internal_candidates.csv](DATA/internal_candidates.csv)
 - Software: PostgreSQL 11.11, pgAdmin 4.30, Python 3.8.3, Apache OpenOffice 4.1.8
 
