@@ -48,7 +48,7 @@ Points to Note from the data analysis
 
 - The majority of staff soon to retire are Senior Engineer and Senior Staffs. There is little change to the Manager levels and relative small number of changes to Staff.
 
-  ## Summary
+## Summary
 
 In conclusion, Pewlett-Hackard will be tasked with replacing 30% (72,458 / 240,124) of their current workforce, 
 
