@@ -40,7 +40,7 @@ Points to Note from the data analysis
 
 - Pewlett-Hackard will experience a massive number of employee retirements soon across most of their workforce except management.
 
-- We have 72,458 employees retirement retirement_titles window fast approaching, however we only have 1,549 mentorship_eligibility eligible for the Mentorship Program. This is quite a bit less than the number of employees to replace the vacant positions.
+- We have 72,458 employees retirement retirement_titles window fast approaching, however we only have [1,549 eligible employees for the Mentorship Program](DATA/mentorship_eligibility.csv). This is quite a bit less than the number of employees to replace the vacant positions.
 
 - This graph below shows the age and count of employees, there is no employees younger than the max of this age range, so there has not been any addition younger aged workers.
 
@@ -73,14 +73,14 @@ WHERE e.birth_date >= '1961-02-01' and de.to_date = '9999-01-01'
 ORDER BY e.emp_no ASC, de.to_date DESC;
 ```
 
-in [internal_candidates.csv](DATA/internal_candidates.csv) generated from the SQL above from '1965-01-01' to '1961-02-01' allows as many as 73,705 candidates to be eligible for the mentoring program from an workforce reduced to 167,666 people (240,124 current - 72,458 retiring staff). However that would require P-H to seek to fill new vacancies from current staffs and require retraining for those positions as well, but they will end up with a similar issue again in employment since the where the graph above shows that the X and Y is increasing in both axes instead of a flat Y axis. A flat line would be preferred for a normal influx of retirement and new hires to replace open positions.
+in [internal_candidates.csv](DATA/internal_candidates.csv) generated from the SQL above from '1965-01-01' to '1961-02-01' allows as many as 73,705 candidates to be eligible for the mentoring program from an workforce reduced to 167,666 people (240,124 current - 72,458 retiring staff). However that would require P-H to seek to fill new vacancies from current staffs and require retraining for those positions as well, but they will end up with a similar issue again in employment since the age of employees is skewed higher do to the current the youngest age of employee is from 1961. There is a mean of about 50 employees a day that have been hired
 
 ![employee_birthdates](images/employee_birthdates.png)
 
-The most ideal solution is for P-H to seek outside hires with the idea of looking for long term candidates to follow this flattened in hiring. and flattening the Age x Employee headcount line. To flatten the line there must be a consistent hiring cycle to allow the staffing and to seek younger candidates. Also to note is to review prior Retirements 
-
-Looking at it the entire history of the company, the oldest employee was born in 1952-02-01 and the youngest employee is born in 1965-02-01
-
-P-H should have been hiring a mean of 50 employees a day to offset 50 employees a day that have started coming of age towards retirement. The below charge shows that hiring practices have gone down an even line since the inception of the company to around 2001-01-28 when the last employee was hired.
+and the gradual decline in new hires since the inception of the company in the 1985 until ending of new hires completely in 2001-01-28.
 
 ![hires_by_date](images/hires_by_date.png)
+
+The most ideal solution is for P-H is to seek outside hires with the idea of looking for long term candidates to continue the flattened line of birthdays in hiring.
+
+Most importantly, P-H needs to hire 72,458 employees before the silver tsunami happens to maintain the human resources for business 
