@@ -10,26 +10,31 @@ The Purpose of this Analysis is to Identify the number of soon to be retiring em
 ## Resources
 
 - Data Source:   [departments.csv](DATA/departments.csv), [dept_emp.csv](DATA/dept_emp.csv), [dept_manager.csv](DATA/dept_manager.csv), [employees.csv](DATA/employees.csv), [salaries.csv](DATA/salaries.csv), [titles.csv](DATA/titles.csv)
-- Query file : [Employee_Database_challenge.sql](QUERIES/Employee_Database_challenge.sql)
-- Results: [mentorship_eligibility.csv](DATA/mentorship_eligibility.csv), [retirement_titles.csv](DATA/retirement_titles.csv), [prior_retirement_titles.csv](DATA/prior_retirement_titles.csv), [unique_titles.csv](DATA/unique_titles.csv), [prior_retirement_titles.csv](DATA/prior_retirement_titles.csv), [retiring_titles.csv](DATA/retiring_titles.csv)
+- Query and Database creation files: [schema.sql](schema.sql), [EmployeeDB.txt](EmployeeDB.txt), [bar_charts.ipynb](DATA/bar_charts.ipynb), [Employee_Database_challenge.sql](QUERIES/Employee_Database_challenge.sql)
+- Results: [mentorship_eligibility.csv](DATA/mentorship_eligibility.csv), [retirement_titles.csv](DATA/retirement_titles.csv), [retiring_titles.csv](DATA/retiring_titles.csv)[unique_titles.csv](DATA/unique_titles.csv)
+- Summary Files: [prior_retirement_titles.csv](DATA/prior_retirement_titles.csv), [internal_candidates.csv](DATA/internal_candidates.csv)
 - Software: PostgreSQL 11.11, pgAdmin 4.30, Python 3.8.3, Apache OpenOffice 4.1.8
 
 ## Career Company positions held by Retiring/Near Retiring staff Results
 
 The success of our company relies on growing and retaining talent. of the 300,024 employees hired during the lifetime of Pewlett-Hackard, only 17,940 have left the company, for less than 6% of our workforce, which speaks volume of our employee retention 
 
+The Analyst was designed with the following Data Sources: [departments.csv](DATA/departments.csv), [dept_emp.csv](DATA/dept_emp.csv), [dept_manager.csv](DATA/dept_manager.csv), [employees.csv](DATA/employees.csv), [salaries.csv](DATA/salaries.csv), [titles.csv](DATA/titles.csv)
+
+![EmployeeDB](EmployeeDB.png)
+
 Currently we are looking at 72,458 positions soon to be retired for a total of 90,398 Titles retired/exited in all, which is 4 times more than we have experienced prior our entire corporate exist
 
-| title              |              Previous Exit/Retirement |               Soon To Retire |  Total |
-| ------------------ | ------------------------------------: | ---------------------------: | -----: |
-| Senior Engineer    |                                 3,498 |                       25,916 | 29,414 |
-| Senior Staff       |                                 3,328 |                       24,926 | 28,254 |
-| Engineer           |                                 4,937 |                        9,285 | 14,222 |
-| Staff              |                                 4,607 |                        7,636 | 12,243 |
-| Technique Leader   |                                   899 |                        3,603 |  4,502 |
-| Assistant Engineer |                                   671 |                        1,090 |  1,761 |
-| Manager            |                                     0 |                            2 |      2 |
-| Titles Head        | [previous_retiring_titles.csv](DATA/previous_retiring_titles.csv)   17,940 | [retiring_titles.csv](DATA/retiring_titles.csv)   72,458 | 90,398 |
+| title              |                                     Previous Exit/Retirement |                                           Soon To Retire |  Total |
+| ------------------ | -----------------------------------------------------------: | -------------------------------------------------------: | -----: |
+| Senior Engineer    |                                                        3,498 |                                                   25,916 | 29,414 |
+| Senior Staff       |                                                        3,328 |                                                   24,926 | 28,254 |
+| Engineer           |                                                        4,937 |                                                    9,285 | 14,222 |
+| Staff              |                                                        4,607 |                                                    7,636 | 12,243 |
+| Technique Leader   |                                                          899 |                                                    3,603 |  4,502 |
+| Assistant Engineer |                                                          671 |                                                    1,090 |  1,761 |
+| Manager            |                                                            0 |                                                        2 |      2 |
+|                    | [previous_retiring_titles.csv](DATA/previous_retiring_titles.csv)   17,940 | [retiring_titles.csv](DATA/retiring_titles.csv)   72,458 | 90,398 |
 
 Points to Note from the data analysis
 
@@ -72,4 +77,5 @@ in [internal_candidates.csv](DATA/internal_candidates.csv) generated from the SQ
 
 ![employee_birthdates](images/employee_birthdates.png)
 
-The most ideal solution is for P-H to seek outside hires with the idea of looking for long term candidates and flattening the Age x Employee headcount line. To flatten the line there must be a consistent hiring cycle to allow the staffing and to seek younger candidates.
+The most ideal solution is for P-H to seek outside hires with the idea of looking for long term candidates and flattening the Age x Employee headcount line. To flatten the line there must be a consistent hiring cycle to allow the staffing and to seek younger candidates. Also to note is to review prior Retirements 
+
